@@ -27,68 +27,7 @@ logging.basicConfig(
 # LISTA DE SCRIPTS A EXECUTAR
 # ─────────────────────────────────────────────
 
-SCRIPTS = [
-    {
-        "name": "script.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Informes de Vendas\Bases - Informes",
-        "description": "Atualizando o arquivo consolidador dos Informes de Vendas - 2R"
-    },
-    {
-        "name": "estoque.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Informes de Vendas",
-        "description": "Atualizando a Base de Estoque - 2R para os Informes de Vendas - 2R"
-    },
-    {
-        "name": "vendas.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Informes de Vendas",
-        "description": "Atualizando a Base de Vendas - 2R para os Informes de Vendas - 2R"
-    },
-    {
-        "name": "automation.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Margem Bruta - 2R",
-        "description": "Atualizando a Base de Vendas para Margem Bruta - 2R"
-    },
-    {
-        "name": "passagens.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Painel Diário",
-        "description": "Atualizando a Base de Passagens"
-    },
-    {
-        "name": "vendas_2R_4R.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Painel Diário",
-        "description": "Atualizando a Base de Vendas - 2R e 4R"
-    },
-    {
-        "name": "estoque.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Quinta do Óleo",
-        "description": "Atualizando a Base de Estoque de Peças - Quinta do Óleo"
-    },
-    {
-        "name": "passagens.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Quinta do Óleo",
-        "description": "Atualizando a Base de Passagens - Quinta do Óleo"
-    },
-    {
-        "name": "sales_oil.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Quinta do Óleo",
-        "description": "Atualizando a Base de Vendas - Quinta do Óleo"
-    },
-    {
-        "name": "passagens_linx.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Passagens - CD",
-        "description": "Atualizando a Base de Passagens - LINX"
-    },
-    {
-        "name": "dealer.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Passagens - CD",
-        "description": "Atualizando a Base de Passagens - Dealer"
-    },
-    {
-        "name": "agendamento.py",
-        "directory": r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Passagens - CD",
-        "description": "Atualizando a Base de Agendamentos - SYONET"
-    }
-]
+SCRIPTS = ["Insira os seu arquivos .py para atualização"]
 
 
 # ─────────────────────────────────────────────
