@@ -40,24 +40,24 @@ APP_SUBTITLE = "Execução orquestrada e monitorada das rotinas de atualização
 # em repositórios públicos.
 SHARE_ROOT = os.environ.get(
     "RPA_SHARE_ROOT",
-    r"\\SEU-SERVIDOR\planilha\Inteligencia_Comercial\Automacoes",
+    r"\\Caminho",
 )
 
 SCRIPTS: list[dict[str, str]] = [
     {
         "name": "Base 1",
-        "directory": rf"{SHARE_ROOT}\Informes de Vendas\Bases - Informes",
-        "description": "Atualizando o arquivo consolidador dos Informes de Vendas - 2R",
+        "directory": rf"{SHARE_ROOT}\Pasta",
+        "description": "Atualizando o arquivo consolidador das Bases",
     },
     {
         "name": "Base 2",
-        "directory": rf"{SHARE_ROOT}\Informes de Vendas",
-        "description": "Atualizando a Base de Estoque - 2R para os Informes de Vendas - 2R",
+        "directory": rf"{SHARE_ROOT}\Pasta",
+        "description": "Atualizando a Base 2 para Relatório 1",
     },
     {
         "name": "Base 3",
-        "directory": rf"{SHARE_ROOT}\Informes de Vendas",
-        "description": "Atualizando a Base de Vendas - 2R para os Informes de Vendas - 2R",
+        "directory": rf"{SHARE_ROOT}\Base",
+        "description": "Atualizando a Base 3 para relatório 3",
     },
 ]
 
